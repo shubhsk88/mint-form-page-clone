@@ -8,8 +8,9 @@
 
 body {
   font-size: 62.7%;
-  background: #ECEEF1;
-  font-family: "AvenirNext", "Avenir";
+  background: #eceef1;
+  font-family: 'Raleway', 'Avenir';
+  
 }
 
 .header {
@@ -20,17 +21,35 @@ body {
   padding: 15px 50px 0 0;
 }
 
-.main{
-  display: grid;
-  grid-template-columns: minmax(15px, 60%) 300px minmax(15px, 60%);
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.7rem;
+  height: 100vh;
+  
 }
-
-.wrapper{
-  grid-column: 1/2;
+.main__body{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ 
 }
+    
 
-
-
-
-
-
+.form{
+    margin-top: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    height:46.5rem;
+    width:27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__heading{
+    font-size: 2rem;
+    font-weight: 400
+    line-height: 1.4;
+    
+}
