@@ -8,4 +8,29 @@
 
 body {
   font-size: 62.7%;
+  background: #ECEEF1;
+  font-family: "AvenirNext", "Avenir";
 }
+
+.header {
+  display: flex;
+  height: 40px;
+  background: yellow;
+  flex-direction: row-reverse;
+  padding: 15px 50px 0 0;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: minmax(15px, 60%) 300px minmax(15px, 60%);
+}
+
+.wrapper{
+  grid-column: 1/2;
+}
+
+
+
+
+
+
