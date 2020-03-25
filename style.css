@@ -10,7 +10,6 @@ body {
   font-size: 62.7%;
   background: #eceef1;
   font-family: 'Raleway';
-  
 }
 
 .header {
@@ -26,72 +25,100 @@ body {
   justify-content: center;
   margin-top: 2.7rem;
   height: 100vh;
-
 }
-.main__body{
+.main__body {
   display: flex;
   flex-direction: column;
- align-items: center;
- 
- 
-}
-    
-
-.form{
-    margin-top: 1rem;
-    padding: 2rem;
-    font-size: 1.5rem;
-    background-color: #fff;
-    height:46.5rem;
-    width:27rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #C7C7C7;
+  align-items: center;
 }
 
-.form__heading{
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.4;
-    padding-bottom: 28px;
+.form {
+  margin-top: 1rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  background-color: #fff;
+  height: 46.5rem;
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border: 1px solid #c7c7c7;
 }
 
-.form__details, .form__link{
-  font-size: 1rem;
+.form__heading {
+  font-size: 2rem;
+  font-weight: 400;
+
+  margin-bottom: 28px;
+  margin-top: 1px;
 }
 
-a{
+.form__details,
+.form__link {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+a {
   text-decoration: none;
 }
+.password__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
 
-input{
+input {
   width: 100%;
   height: 33px;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   border-radius: 4px;
-  margin-top: 14px;
+  margin-top: 10px;
+}
+.lock {
+  margin-right: 0.5rem;
 }
 
-.form__wrapper{
-  margin-top: 37px;
+.form__wrapper {
+  margin-top: 25px;
   font-size: 1.1rem;
 }
-
-.form__phone-description{
-  margin-top: 8px;
-  font-size: .8rem;
+.lock-open {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 5px;
+  color: grey;
 }
 
-.submit{
+.form__phone-description {
+  margin-top: 25px;
+  font-size: 0.8rem;
+}
+
+.submit {
   font-size: 1.3rem;
   margin-top: 30px;
   color: #fff;
   border: none;
   border-bottom: 1px solid #535353;
   width: 100%;
-  background: #0A79C8;
+  background: #0a79c8;
   height: 47px;
   padding-left: 5px;
 }
 
+.policy {
+  font-size: 0.9rem;
+}
+.policy {
+  margin-top: 90px;
+  text-align: center;
+  padding-bottom: 11px;
+}
+.recaptcha {
+  margin-top: 48px;
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 0.8rem;
+  background-color: #eceef1;
+}
