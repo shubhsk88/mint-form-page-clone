@@ -10,6 +10,8 @@ This is a copy of the https://www.mint.com/ "Sign up" website. It lacks funtctio
 - CSS,
 - Used fontawesome.com for the icons.
 
+ [Live Version](https://rawcdn.githack.com/shubhsk88/mint-form-page-clone/7326e823510c63bf4a19ab9c844967666f6d2b46/index.html)
+
 
 ## Authors
 
