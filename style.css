@@ -38,13 +38,13 @@ body {
 
 .signin__header {
   color: rgb(38, 39, 39);
-  font-weight: 550;
+  font-weight: 500;
   font-size: 0.9rem;
   margin-right: 10px;
 }
 
 .forgot__ID {
-  font-weight: 550;
+  font-weight: 500;
   font-size: 0.9rem;
 }
 
@@ -141,7 +141,7 @@ input {
 .policy {
   color: rgb(107, 111, 112);
   font-size: 0.9rem;
-  font-weight: 550;
+  font-weight: 500;
   font-style: italic;
   margin-top: 60px;
   text-align: center;
@@ -151,7 +151,7 @@ input {
 
 .recaptcha {
   color: rgb(107, 111, 112);
-  font-weight: 550;
+  font-weight: 500;
   padding-top: 19px;
   margin-top: -53px;
   text-align: center;
