@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
+    ">
   </head>
   <body>
     <header class="header">
@@ -34,30 +36,39 @@
           </div>
           <a href="#" class="form__link">Learn More</a>
           <form action="" class="form__signup">
-            <label>
-              Email Address
-              <input type="text" class="form__text" />
-            </label>
-            <label>
-              Phone (recommended)
-              <input type="text" />
-              <div class="form__phone-description">
-                Standard call, messaging or data rates may apply
-              </div>
-            </label>
-            <label>
-              Password
-              <input
-                type="password"
-                name="password"
-                class="form__password"
-                id=""
-              />
-              <i class="fal fa-lock-open"></i>
-            </label>
+            <div class="form__wrapper"> 
+              <label>
+                Email Address
+                <input type="text" class="form__text" />
+              </label>
+            </div>
+
+            <div class="form__wrapper">
+              <label>
+                Phone (recommended)
+                <input type="text" />
+                <div class="form__phone-description">
+                  Standard call, messaging or data rates may apply
+                </div>
+              </label>
+            </div>
+
+            <div class="form__wrapper">
+              <label>
+                Password
+                <input
+                  type="password"
+                  name="password"
+                  class="form__password"
+                  id=""
+                />
+                <i class="fas fa-lock-open"></i>
+              </label>
+            </div>
+
             <div class="form__button">
-              <button type="submit">
-                <i class="fas fa-lock-alt"></i>
+              <button type="submit" class = 'submit'>
+                <i class="fas fa-lock"></i>
                 Create Account
               </button>
             </div>
