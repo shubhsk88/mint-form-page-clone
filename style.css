@@ -1,9 +1,12 @@
 *,
 *:after,
 *:before {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+html {
+  max-height: 100vh;
 }
 
 body {
@@ -19,7 +22,7 @@ body {
   padding: 15px 50px 0 0;
 }
 
-.signin__button{
+.signin__button {
   font-size: 1rem;
   color: #fff;
   border: none;
@@ -32,23 +35,22 @@ body {
   margin-top: -3px;
 }
 
-.signin__header{
+.signin__header {
   color: rgb(38, 39, 39);
   font-weight: 550;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-right: 10px;
 }
 
-.forgot__ID{
+.forgot__ID {
   font-weight: 550;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .main {
   display: flex;
   justify-content: center;
-  margin-top: 2.7rem;
-  height: 100vh;
+  margin-top: 2.1rem;
 }
 .main__body {
   display: flex;
@@ -85,7 +87,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #2F83DA;
+  color: #2f83da;
 }
 .password__wrapper {
   display: flex;
@@ -156,4 +158,31 @@ input {
   background-color: #eceef1;
   width: 26.8rem;
   height: 52px;
+}
+
+.footer {
+  margin-top: 0rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  margin-bottom: 4px;
+  list-style: none;
+}
+ul li {
+  padding: 10px 10px 5px 10px;
+}
+.list {
+  text-decoration: none;
+  color: black;
+}
+.list:hover {
+  text-decoration: underline;
 }
